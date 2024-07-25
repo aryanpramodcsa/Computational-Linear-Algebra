@@ -9,3 +9,10 @@ FUNCTION matrix_sum(A,B);
   return the matrix C
 END FUNCTION
 ```
+## Pseudocode solution of sstemof equations 
+FUNCTION Solution (A,b);
+  create augmented matrix K=[A|b]
+  Reduce in Row Reduced Echeler form
+  Rank no. of non zero rows of RREF
+  if Rank(K)!=Rank(A)
+    else
